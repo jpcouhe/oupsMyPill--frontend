@@ -1,27 +1,63 @@
+﻿
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
+
 # OupsMyPill
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+<p align="center">
+<img src="src/assets/image/construction.png" alt="drawing" width='100%'/>
+</p>
 
-## Development server
+Gestion d'oubli de pilule contraceptive
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🔨 Technologies 
 
-## Code scaffolding
+* Frontend 
+    - Framework **Angular**
+    - **SCSS**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🎯 Fonctionnalités
+  -  
+  - 
+  - 
+  
+  <a href='https://youtu.be/RUdAbk6bczE'><img src='youtube.png' height="50" width='auto'></br>
 
-## Build
+## 🏗️ Concepts utilisés
+  - 
+  - 
+ 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Optimisations supplémentaires envisageables  
+  - 
+  - 
+  - 
+  - 
+  - 
+  
+## 📬 Contact 
 
-## Running unit tests
+COUHE Jean-philippe - pro@jean-philippecouhe.fr
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:pro@jeanphilippecouhe.fr)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jean-philippe-couhe/) 
+ 
+ ## 👏 Remerciement
+ 
+ Image Bannière : Gaspart https://www.instagram.com/vivarium.collection/  
+ 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/jpcouhe/LaPanthere---Optimisation-SEO.svg?style=flat-square
+[contributors-url]: https://github.com/jpcouhe/LaPanthere---Optimisation-SEO/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jpcouhe/LaPanthere---Optimisation-SEO.svg?style=flat-square
+[forks-url]: https://github.com/jpcouhe/LaPanthere---Optimisation-SEO/network/members
+[stars-shield]: https://img.shields.io/github/stars/jpcouhe/LaPanthere---Optimisation-SEO.svg?style=flat-square
+[stars-url]: https://github.com/jpcouhe/LaPanthere---Optimisation-SEO/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jpcouhe/LaPanthere---Optimisation-SEO.svg?style=flat-square
+[issues-url]: https://github.com/jpcouhe/LaPanthere---Optimisation-SEO/issues
+[license-shield]: https://img.shields.io/github/license/jpcouhe/LaPanthere---Optimisation-SEO.svg?style=flat-square
+[license-url]: https://github.com/jpcouhe/readme-template-/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: example.jpg
+[youtube-screenshot]: youtube.png
