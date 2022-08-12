@@ -4,7 +4,7 @@
 # OupsMyPill
 
 <p align="center">
-<img src="src/assets/image/construction.png" alt="drawing" width='100%'/>
+<img src="src/assets/images/construction.png" alt="drawing" width='100%'/>
 </p>
 
 Gestion d'oubli de pilule contraceptive
