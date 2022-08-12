@@ -1,13 +1,13 @@
 ﻿
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
 
-# OupsMyPill
+# OupsMyPill : Gestion d'oubli de pilule contraceptive
 
 <p align="center">
 <img src="src/assets/images/construction.png" alt="drawing" width='100%'/>
 </p>
 
-Gestion d'oubli de pilule contraceptive
+
 
 ## 🔨 Technologies 
 
