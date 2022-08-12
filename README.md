@@ -43,7 +43,6 @@ COUHE Jean-philippe - pro@jean-philippecouhe.fr
  
  ## 👏 Remerciement
  
- Image Bannière : Gaspart https://www.instagram.com/vivarium.collection/  
  
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
