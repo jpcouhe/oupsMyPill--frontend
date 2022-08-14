@@ -1,0 +1,57 @@
+<mat-card class="main-form">
+  <mat-card-title>Questionnaire</mat-card-title>
+  <mat-card class="form-card">
+    <mat-card-subtitle>Quelle pilule prenez-vous ?</mat-card-subtitle>
+    <mat-form-field appearance="fill">
+      <mat-label>Nom de la Pilule</mat-label>
+      <input
+        type="text"
+        matInput
+        [matAutocomplete]="auto"
+        [formControl]="piluleCtrl"
+      />
+      <mat-error>Ce champs est requis</mat-error>
+      <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+        <mat-option
+          *ngFor="let pilule of pilules$ | async"
+          [value]="pilule.name"
+        >
+          {{ pilule.name }}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+    <mat-card-subtitle>Quel jour avez-vous pris le 1er comprimé ?</mat-card-subtitle>
+    <mat-form-field appearance="fill">
+      <mat-label>Choisir une date</mat-label>
+      <input matInput [matDatepicker]="picker" [formControl]="firstDayCtrl" />
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+
+    <mat-card-subtitle>A quelle heure prenez vous votre pilule normalement ?</mat-card-subtitle>
+    <mat-form-field>
+      <mat-label>Heure</mat-label>
+      <input type="time" matInput [formControl]="usualTimeCtrl">
+    </mat-form-field>
+
+
+    <mat-card-subtitle
+    >Avez-vous eu un rapport dans les 5 jours avant l'oubli ?</mat-card-subtitle
+  >
+  <mat-radio-group [formControl]="sexualIntercourse">
+    <mat-radio-button value="yes">Oui</mat-radio-button>
+    <mat-radio-button value="no">Non</mat-radio-button>
+  </mat-radio-group>
+  </mat-card>
+  <mat-card-actions *ngIf="mainForm.valid && isExistingPill">
+    <button
+      mat-flat-button
+      color="primary"
+      (click)="onSubmitForm()"
+      
+    >
+      ENREGISTRER
+    </button>
+  </mat-card-actions>
+</mat-card>
