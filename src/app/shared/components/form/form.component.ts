@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { AbstractControl,FormBuilder, FormControl, FormGroup,Validators} from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
+import { Router } from '@angular/router';
 import { Observable, startWith, map, combineLatest } from 'rxjs';
 import { Pilule } from 'src/app/pilule/models/pilules.model';
 import { PilulesService } from 'src/app/pilule/services/pilules.service';
+import { FormValueService } from '../../services/form-value.service';
 
 @Component({
   selector: 'app-form',
@@ -20,13 +23,10 @@ export class FormComponent implements OnInit {
   sexualIntercourse!:FormControl
 
 
-  isExistingPill:boolean = false
-
-
   contextForm!:FormGroup
   pilules$!: Observable<Pilule[]>
 
-  constructor(private formBuilder:FormBuilder, private pilulesService: PilulesService ) { }
+  constructor(private dialog: MatDialog,private router: Router,private formBuilder:FormBuilder, private pilulesService: PilulesService, private formValuesService : FormValueService ) { }
 
   ngOnInit(): void {
   this.initFormControls()
@@ -72,9 +72,8 @@ export class FormComponent implements OnInit {
 
 
   onSubmitForm(){
-
-
-    console.log(this.mainForm.value)
-
+    this.formValuesService._formValue$.next(this.mainForm.value)
+    this.router.navigate(['calendar'])
+    this.dialog.closeAll()
   }
 }
