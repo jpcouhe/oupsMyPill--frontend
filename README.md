@@ -38,7 +38,7 @@ clone this repo : https://github.com/jpcouhe/oupsMyPill--backend
    - Intégration dans un calendrier via angular-calendar (package qui utilise BootStrap) 
    - Schéma adapté en fonction de la pilule 
    
-<a href='https://youtu.be/RUdAbk6bczE](https://youtu.be/fDQeO86erf4'><img src='docs/youtube.png' height="50" width='auto'></br>
+<a href='https://youtu.be/fDQeO86erf4](https://youtu.be/fDQeO86erf4'><img src='docs/youtube.png' height="50" width='auto'></br>
 
 ## 🏗️ Concepts utilisés
   - Récupération de la liste de toutes les pilules existantes 
