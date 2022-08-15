@@ -7,18 +7,12 @@ import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
   templateUrl: './landingpage.component.html',
   styleUrls: ['./landingpage.component.scss']
 })
-export class LandingpageComponent implements OnInit {
+export class LandingpageComponent  {
 
   constructor(public dialog: MatDialog) { }
 
-  ngOnInit(): void {
-    console.log('salut');
-    
-  }
-
   onStart(){
-    console.log('salut');
-    
+  
     const dialogConfig = new MatDialogConfig()
     dialogConfig.disableClose= false;
     dialogConfig.autoFocus = true;

@@ -4,11 +4,11 @@ import { LandingpageComponent } from './core/components/landingpage/landingpage.
 import { CalendarComponent } from './shared/components/calendar/calendar.component';
 
 const routes: Routes = [
+  { path: 'calendar', component: CalendarComponent },
   {
     path: 'get-started',
     component: LandingpageComponent,
   },
-  { path: 'calendar', component: CalendarComponent },
   {
     path: '',
     redirectTo: 'get-starded',

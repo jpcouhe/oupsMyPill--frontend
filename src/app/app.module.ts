@@ -12,6 +12,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 // Mise à jour en Fr du DATEPICKER
 import { MAT_DATE_FORMATS, MAT_DATE_LOCALE } from '@angular/material/core';
 import { MY_FORMAT } from './shared/constante/my_format';
+import { CalendarModule, DateAdapter } from 'angular-calendar';
+import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [AppComponent],
@@ -24,6 +27,8 @@ import { MY_FORMAT } from './shared/constante/my_format';
     SharedModule,
     HttpClientModule,
     ReactiveFormsModule,
+    CalendarModule.forRoot({ provide: DateAdapter, useFactory: adapterFactory }),
+    NgbModule,
   ],
   providers: [
     { provide: MAT_DATE_LOCALE, useValue: 'fr-FR' },

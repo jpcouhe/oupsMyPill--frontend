@@ -1,0 +1,39 @@
+
+
+
+.bloc-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px)
+}
+
+h3 {
+  margin: 0 0 10px;
+}
+
+pre {
+  background-color: #f5f5f5;
+  padding: 15px;
+}
+
+p{
+  color : #AF4945;
+  font-weight: 700;
+  margin-top: 40px;
+  font-size: 20px;
+
+  span{
+    color: #0D2E47
+  }
+}
+
+.width {
+    width: 800px;
+}

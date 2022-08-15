@@ -1,24 +1,34 @@
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
+
+$theme-colors: (
+  "primary": #af4945,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 /* You can add global styles to this file, and also import other style files */
-html, body { height: 100%; }
+html,
+body {
+  height: 100%;
+}
 
-
-*, ::after, ::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-//   margin: 0;
+  //   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: #f9e6dc;
-//   background-image: url('../src/assets/images/blurred-bg.jpeg');
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-attachment: fixed;
+  //   background-image: url('../src/assets/images/blurred-bg.jpeg');
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-attachment: fixed;
 }
 
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
