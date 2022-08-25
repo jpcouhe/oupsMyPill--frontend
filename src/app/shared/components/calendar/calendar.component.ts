@@ -138,11 +138,13 @@ export class CalendarComponent implements OnInit {
 
   setCalendar() {
     const firstDay = new Date(this.value.firstDay);
-
+    console.log(firstDay)
     const usualTimeDate = new Date(this.value.usualTime);
     const now = new Date();
     const delay = now.getTime() - usualTimeDate.getTime();
-
+    console.log(usualTimeDate)
+    console.log(now)
+    console.log(delay)
     let remainingPill: number;
     if (this.pilule[0]['stop'] == '7') {
       remainingPill =
@@ -179,7 +181,7 @@ export class CalendarComponent implements OnInit {
         },
         {
           start: startOfDay(new Date()),
-          end: addDays(new Date(), remainingPill),
+          end: addDays(new Date(), remainingPill / (1000 * 60 * 60 * 24)),
           title: 'Prendre la pilule normalement',
           color: { ...colors['green'] },
           actions: this.actions,
